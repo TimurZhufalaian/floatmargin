@@ -1,0 +1,50 @@
+/* Стилі для контейнера */
+.container {
+  border: 2px solid #000;
+  overflow: hidden;
+  margin-bottom: 20px;
+  /* Очищення float */
+  text-align: center;
+}
+
+/* Стилі для квадратів */
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  /* Додатковий margin для відділення квадратів від контейнера */
+  background-color: red;
+  /* Змініть колір за необхідністю */
+}
+
+/* Перший квадрат ліворуч */
+.left {
+  float: left;
+}
+
+/* Другий квадрат праворуч */
+.right {
+  float: right;
+}
+
+/* Стилі для квадратів */
+.square2 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  /* Додатковий margin для відділення квадратів від контейнера */
+  background-color: red;
+  /* Змініть колір за необхідністю */
+  float: left;
+}
+
+/* Квадрати для високого блоку */
+.tall {
+  height: 220px;
+}
+
+.inner-container {
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+}

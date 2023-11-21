@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Floating Squares</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Контейнер 1 -->
+  <div class="container">
+    <!-- Перший квадрат ліворуч -->
+    <div class="square left"></div>
+    <!-- Другий квадрат праворуч -->
+    <div class="square right"></div>
+    <div style="clear:both;"></div> <!-- Очищення float для контейнера -->
+  </div>
+  <!-- Контейнер 2 -->
+  <div>
+
+  </div>
+  <div class="container">
+    <!-- Перший квадрат ліворуч -->
+    <div class="square left">1</div>
+    <!-- Кілька квадратів праворуч -->
+    <div class="square right">2</div>
+    <div class="square right">3</div>
+    <div class="square right">4</div>
+    <div style="clear:both;"></div> <!-- Очищення float для контейнера -->
+  </div>
+
+  <!-- Контейнер 3 -->
+  <div class="container">
+    <!-- Два квадрати ліворуч -->
+    <div class="square left"></div>
+    <div class="square left"></div>
+    <!-- Два квадрати праворуч -->
+    <div class="square right"></div>
+    <div class="square right"></div>
+    <div style="clear:both;"></div> <!-- Очищення float для контейнера -->
+  </div>
+  <!-- Контейнер 4 -->
+  <div class="container">
+    <div class="inner-container">
+      <!-- Перший квадрат, високий -->
+      <div class="square2 tall">1</div>
+      <!-- Два квадрати праворуч, в стовпчик -->
+      <div>
+        <div class="square2">2</div>
+        <div class="square2">3</div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="inner-container right">
+      <!-- Перший квадрат, високий -->
+      <div class="square2 tall">1</div>
+      <!-- Два квадрати праворуч, в стовпчик -->
+      <div>
+        <div class="square2">2</div>
+        <div class="square2">3</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
